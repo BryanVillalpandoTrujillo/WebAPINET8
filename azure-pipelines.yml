@@ -8,7 +8,6 @@ resources:
 - repo: self
 
 variables:
-
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'e7d5b323-1fa3-4f33-840d-ef0fb0049262'
   imageRepository: 'bryanvillalpandotrujillowebapinet'
