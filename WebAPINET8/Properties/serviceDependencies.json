@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "Server=tcp:bvtserver1.database.windows.net,1433;Initial Catalog=LicenciaturasAPI;Persist Security Info=False;User ID=server123;Password=Vryan1980*;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+      "dynamicId": null
+    }
+  }
+}
