@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bryan\\OneDrive - Instituto Tecnológico de León\\Escritorio\\API-ASPNET\\WebAPINET8\\WebAPINET8.csproj": {}
+    "C:\\Users\\Bryan\\Source\\Repos\\WebAPINET81234\\WebAPINET8\\WebAPINET8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bryan\\OneDrive - Instituto Tecnológico de León\\Escritorio\\API-ASPNET\\WebAPINET8\\WebAPINET8.csproj": {
+    "C:\\Users\\Bryan\\Source\\Repos\\WebAPINET81234\\WebAPINET8\\WebAPINET8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bryan\\OneDrive - Instituto Tecnológico de León\\Escritorio\\API-ASPNET\\WebAPINET8\\WebAPINET8.csproj",
+        "projectUniqueName": "C:\\Users\\Bryan\\Source\\Repos\\WebAPINET81234\\WebAPINET8\\WebAPINET8.csproj",
         "projectName": "WebAPINET8",
-        "projectPath": "C:\\Users\\Bryan\\OneDrive - Instituto Tecnológico de León\\Escritorio\\API-ASPNET\\WebAPINET8\\WebAPINET8.csproj",
+        "projectPath": "C:\\Users\\Bryan\\Source\\Repos\\WebAPINET81234\\WebAPINET8\\WebAPINET8.csproj",
         "packagesPath": "C:\\Users\\Bryan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bryan\\OneDrive - Instituto Tecnológico de León\\Escritorio\\API-ASPNET\\WebAPINET8\\obj\\",
+        "outputPath": "C:\\Users\\Bryan\\Source\\Repos\\WebAPINET81234\\WebAPINET8\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webapinet8:
+    image: ${DOCKER_REGISTRY-}webapinet8
+    build:
+      context: .
+      dockerfile: WebAPINET8/Dockerfile

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebAPINET8")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4461bbf36d0f628903dc2f50ee90ee703fad774a")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebAPINET8")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebAPINET8")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SOgPEIbJnXSEl0JqSFrJNMhfA8mF/rNRKKC2d1L/ymf/Uj7ydkak9psgll8nF88ouTWLTH4skfqmg5tJuk982w==",
+  "dgSpecHash": "XIWXR9HYL2atZCP6IMCcRHCtC2bYNi6OoCMn2LI/037ZG3l3ofqIDXQmdvG9ZeLXUXX794v2ISo0OYrJcoDuyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bryan\\OneDrive - Instituto Tecnológico de León\\Escritorio\\API-ASPNET\\WebAPINET8\\WebAPINET8.csproj",
+  "projectFilePath": "C:\\Users\\Bryan\\Source\\Repos\\WebAPINET81234\\WebAPINET8\\WebAPINET8.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bryan\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Bryan\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
