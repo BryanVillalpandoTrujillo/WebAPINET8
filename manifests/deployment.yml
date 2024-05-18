@@ -1,7 +1,7 @@
-apiVersion : apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: bryanvillalpandotrujillowebapinet 
+  name: bryanvillalpandotrujillowebapinet  
 spec:
   replicas: 1
   selector:
@@ -10,10 +10,10 @@ spec:
   template:
     metadata:
       labels:
-        app: bryanvillalpandotrujillowebapinet 
+        app: bryanvillalpandotrujillowebapinet  
     spec:
       containers:
-        - name: bryanvillalpandotrujillowebapinet 
-          image: apivillareg.azurecr.io/bryanvillalpandotrujillowebapinet
-          ports:
-          - containerPort: 8081/tcp
+      - name: bryanvillalpandotrujillowebapinet  
+        image: apivillareg.azurecr.io/bryanvillalpandotrujillowebapinet
+        ports:
+        - containerPort: 8081
