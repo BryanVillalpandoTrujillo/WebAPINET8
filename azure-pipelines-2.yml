@@ -31,7 +31,7 @@ stages:
           echo "##vso[task.setvariable variable=IS_PULL_REQUEST]false"
         fi
       displayName: 'Check if Pull Request'
-      
+
     - task: Docker@2
       displayName: Build and push an image to container registry
       inputs:
@@ -42,7 +42,7 @@ stages:
         tags: |
           $(tag)
 
-    - upload: manifests
+    - publish: $(Pipeline.Workspace)/manifests
       artifact: manifests
 
     - ${{ if eq(variables['IS_PULL_REQUEST'], 'true') }}:
