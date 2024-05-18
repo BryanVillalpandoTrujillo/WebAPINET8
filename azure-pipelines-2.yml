@@ -28,7 +28,7 @@ stages:
       fetchDepth: 1
 
     - script: |
-        if ("$(Build.SourceBranch)" -like "refs/pull/*") {
+        if ("$(Build.SourceBranch)" -match "refs/pull/*") {
           Write-Host "##vso[task.setvariable variable=IS_PULL_REQUEST]true"
         }
         else {
