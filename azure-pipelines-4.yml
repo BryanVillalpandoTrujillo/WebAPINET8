@@ -1,7 +1,6 @@
 # Deploy to Azure Kubernetes Service
 # Build and push image to Azure Container Registry; Deploy to Azure Kubernetes Service
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
-
 trigger:
 - master
 
@@ -9,7 +8,6 @@ resources:
 - repo: self
 
 variables:
-
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '4b95b88a-a54b-43b1-9f56-7377227d62cd'
   imageRepository: 'bryanvillalpandotrujillowebapinet'
@@ -21,7 +19,6 @@ variables:
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
-
 stages:
 - stage: Build
   displayName: Build stage
@@ -29,7 +26,9 @@ stages:
   - job: Build
     displayName: Build
     pool:
-      vmImage: $(vmImageName)
+      name: 'Default'
+      demands:
+      - agent.name -equals BRYAN_VILLALPAN
     steps:
     - task: Docker@2
       displayName: Build and push an image to container registry
@@ -47,12 +46,13 @@ stages:
 - stage: Deploy
   displayName: Deploy stage
   dependsOn: Build
-
   jobs:
   - deployment: Deploy
     displayName: Deploy
     pool:
-      vmImage: $(vmImageName)
+      name: 'Default'
+      demands:
+      - agent.name -equals BRYAN_VILLALPAN
     environment: 'BryanVillalpandoTrujilloWebAPINET8-6518.default'
     strategy:
       runOnce:
@@ -76,4 +76,3 @@ stages:
                 $(imagePullSecret)
               containers: |
                 $(containerRegistry)/$(imageRepository):$(tag)
-
